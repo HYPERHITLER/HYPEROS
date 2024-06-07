@@ -1,5 +1,6 @@
 import os, platform
 print(' CHECKING FOR UPDATES')
+os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '32':
   from data import HYPER32
