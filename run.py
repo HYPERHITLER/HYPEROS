@@ -1,6 +1,8 @@
 import os, platform
 print(' CHECKING FOR UPDATES')
 os.system('git pull')
+print(' THIS TOOL IS BEING MAINTENANCE TRY AGAIN FEW MOMENT LATER')
+exit()
 bit = platform.architecture()[0]
 if bit == '32bit':
     from data import HYPER32
